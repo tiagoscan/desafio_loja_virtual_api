@@ -8,7 +8,7 @@
 ### :people_holding_hands:	 Membros da Equipe 
 :small_blue_diamond: `Tiago Candido` \
 :small_blue_diamond: `Gabriel Sizote de Souza` \
-:small_blue_diamond: `Silvio Augusto Franco Junior` \
+:small_blue_diamond: `Silvio Augusto Franco Junior` 
 
 ------------
 
