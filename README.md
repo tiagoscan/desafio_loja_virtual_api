@@ -29,17 +29,17 @@ desenvolvimento de software.
 
 ------------   
 
-![img01](/img/img01.jpg)
+![img01](/img/img01.png)
 \
 \
-![img02](/img/img02.jpg)
+![img02](/img/img02.png)
 \
 \
-![img03](/img/img03.jpg)
+![img03](/img/img03.png)
 \
 \
-![img04](/img/img04.jpg)
+![img04](/img/img04.png)
 \
 \
-![img05](/img/img05.jpg)
+![img05](/img/img05.png)
 
