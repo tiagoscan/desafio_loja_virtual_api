@@ -13,7 +13,22 @@
         android:theme="@style/Theme.LojaVirtualAPI"
         tools:targetApi="31">
         <activity
+            android:name=".view.T05PostagensDetalheActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.T04UsuariosDetalheActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.T03CarrinhoDeComprasDetalheActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.T02ListagemProdutosDetalheActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.T01PrincipalActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6A2FB"
+    android:orientation="vertical"
+    tools:context=".view.T01PrincipalActivity">
+
+    <Button
+        android:id="@+id/btnPrincipalPostagens"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:drawableTop="@drawable/ic_post_64px"
+        android:paddingTop="25dp"
+        android:text="POSTAGENS"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnPrincipalUsuarios"
+        app:layout_constraintTop_toBottomOf="@+id/btnPrincipalCarrinho" />
+
+    <Button
+        android:id="@+id/btnPrincipalUsuarios"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:drawableTop="@drawable/ic_person_60"
+        android:paddingTop="25dp"
+        android:text="USUÁRIOS"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnPrincipalPostagens"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPrincipalProdutos" />
+
+    <Button
+        android:id="@+id/btnPrincipalCarrinho"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:drawableTop="@drawable/ic_shopping_cart_60"
+        android:paddingTop="25dp"
+        android:text="CARRINHO"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPrincipalPostagens"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnPrincipalProdutos"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/btnPrincipalProdutos"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="8dp"
+        android:drawableTop="@drawable/ic_produtos_64px"
+        android:paddingTop="25dp"
+        android:text="PRODUTOS"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPrincipalUsuarios"
+        app:layout_constraintEnd_toStartOf="@+id/btnPrincipalCarrinho"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+</androidx.constraintlayout.widget.ConstraintLayout>
